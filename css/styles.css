@@ -7,6 +7,12 @@ body {
   color: #2e2f42; /*navy blue*/
 }
 
+.section-our-service {
+  background-color: #2e2f42;
+  color: white;
+  text-align: center;
+}
+
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
