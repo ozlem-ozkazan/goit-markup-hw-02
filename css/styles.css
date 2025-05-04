@@ -3,8 +3,70 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em; /* 2% */
   color: #2e2f42; /*navy blue*/
+}
+
+main p {
+  color: #434455;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 0.02em; /* 2% */
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0.02em; /* 2% */
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 24px;
+  letter-spacing: 0.02em; /* 2% */
+}
+
+address a {
+  color: #434455;
+  text-decoration: none;
+}
+
+address a:hover {
+  color: #404bbf;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.03em; /* 3% */
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.logo-start {
+  color: #4d5ae5;
+}
+
+.logo-end {
+  color: #2e2f42;
+}
+
+.logo-end-footer {
+  color: #f4f4fd;
 }
 
 .section-our-service {
@@ -13,6 +75,34 @@ body {
   text-align: center;
 }
 
+.service-button {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em; /* 4% */
+  background-color: #4d5ae5;
+  color: white;
+}
+
+.service-button:hover {
+  background-color: #404bbf;
+}
+
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
+.portrait {
+  background-color: white;
+  width: 264px;
+  height: 380px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
