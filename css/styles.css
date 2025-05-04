@@ -7,6 +7,14 @@ body {
   color: #2e2f42; /*navy blue*/
 }
 
+nav a {
+  color: #2e2f42;
+}
+
+nav a:hover {
+  color: #404bbf;
+}
+
 main p {
   color: #434455;
 }
@@ -85,6 +93,7 @@ a {
 
 .service-button:hover {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .section-our-team {
@@ -103,6 +112,7 @@ footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
+
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
